@@ -31,15 +31,15 @@ URL = "about"
 name = "About"
 weight = 2
 
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 3
+#[[menu.main]]
+#URL = "blog"
+#name = "Blog"
+#weight = 3
 
-[[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
-weight = 4
+#[[menu.main]]
+#URL = "portfolio"
+#name = "Portfolio"
+#weight = 4
 
 [[menu.main]]
 URL = "contact"
@@ -54,7 +54,7 @@ logo = "images/logo.png"
 # theme color
 theme_color = "#41228e"
 # contact info
-phone = "+880 2544 658 256"
+#phone = "+880 2544 658 256"
 email = "nukulsharma@gmail.com"
 #address = "125/A, CA Commercial Area, California, USA"
 # meta description
