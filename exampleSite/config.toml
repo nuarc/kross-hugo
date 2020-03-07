@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "https://nukulsharma.com"
+baseURL = "https://www.nukulsharma.com"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
@@ -61,7 +61,7 @@ email = "nukulsharma@gmail.com"
 author = "Nukul Sharma"
 description = "personal site"
 # google analitycs
-google_analitycs_id = "" # Your ID
+google_analitycs_id = "G-GRYQZ1XEHV" # Your ID
 # copyright
 copyright = "Copyright &copy; 2020 Nukul Sharma"
 
