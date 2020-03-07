@@ -5,15 +5,15 @@ work_process:
   item:
   - title : "Research and Plan"
     icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Big data, machine learning and cloud native"
 
   - title : "Design and Develop"
     icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Living architectures."
 
   - title : "Deliver"
     icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Cost effective, sustainable solutions."
 #
 #
 ## team
