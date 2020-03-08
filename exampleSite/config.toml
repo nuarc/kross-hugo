@@ -56,7 +56,7 @@ theme_color = "#41228e"
 # contact info
 #phone = "+880 2544 658 256"
 email = "nukulsharma@gmail.com"
-#address = "125/A, CA Commercial Area, California, USA"
+address = "Delhi, India"
 # meta description
 author = "Nukul Sharma"
 description = "personal site"
@@ -79,17 +79,17 @@ preloader = "" # use png, jpg, svg or gif format
 
 # social site
 [[params.social]]
-URL = "#"
+URL = "https://www.facebook.com/nukulsharma22"
 icon = "ti-facebook"
 
 [[params.social]]
-URL = "#"
+URL = "https://www.instagram.com/nukulsharma/"
 icon = "ti-instagram"
 
 [[params.social]]
-URL = "#"
-icon = "ti-dribbble"
+URL = "https://www.linkedin.com/in/nukulsharma/"
+icon = "ti-linkedin"
 
 [[params.social]]
-URL = "#"
+URL = "https://twitter.com/nukul22"
 icon = "ti-twitter-alt"
