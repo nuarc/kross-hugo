@@ -1,3 +1,31 @@
+<!--&lt;!&ndash; Global site tag (gtag.js) - Google Analytics &ndash;&gt;-->
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-GRYQZ1XEHV"></script>-->
+<!--<script>-->
+<!--  window.dataLayer = window.dataLayer || [];-->
+<!--  function gtag(){dataLayer.push(arguments);}-->
+<!--  gtag('js', new Date());-->
+<!--  gtag('config', 'G-GRYQZ1XEHV');-->
+<!--</script>-->
+{{ if $.Site.Params.google_tag_manager }}
+<!-- Google Tag Manager -->
+<!-- create dataLayer -->
+<script>
+  <!-- OPTIONAL dataLayer -->
+  var dataLayer = window.dataLayer = window.dataLayer || [];
+  dataLayer.push({
+    page:'{{ .Title }}',
+    categories:'Home'
+  });
+</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{ $.Site.Params.google_tag_manager }}');</script>
+<!-- End Google Tag Manager -->
+{{ end }}
+
+
 <header class="navigation fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo | absURL }}" alt="{{.Site.Title}}"></a>
@@ -37,3 +65,10 @@
     </div>
   </nav>
 </header>
+
+{{ if $.Site.Params.google_tag_manager }}
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ $.Site.Params.google_tag_manager }}"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+{{ end }}
